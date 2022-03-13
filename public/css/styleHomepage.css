@@ -1,0 +1,74 @@
+body{
+    background-color: #f7f6f2;
+    font-family: Arial;
+    background-image: url("../Image/background.jpg");
+    background-size: cover;
+    
+}
+
+.title{
+    padding-top:20;
+    color: #646361;
+    font-size: 24px;
+}
+
+.titleIn{
+    color: #646361;
+    font-size: 50px;
+}
+
+.container{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.boxContainer{
+    width: 75%;
+    height: fit-content;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxFormContainer{
+    background-color: #d5e3d9;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.boxLoginContainer a{
+    color: #646361;
+    text-decoration: none;
+}
+
+.inputBox{
+    width: 1250px;
+    height: 50px;
+    margin: 10px 100px 10px 100px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+}
+
+.buttonSubmit{
+    background-color: #99A799;
+    border: none;
+    margin: 30px;
+    padding: 5px;
+    height: 50px;
+    width: 25%;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.titleSoal{
+    color: #646361;
+    font-size: 40px;
+    margin-bottom: 10px;
+}

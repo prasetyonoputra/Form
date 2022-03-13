@@ -1,0 +1,59 @@
+body{
+    background-color: #f7f6f2;
+    font-family: Arial;
+    background-image: url("../Image/background.jpg");
+    background-size: cover;
+    
+}
+
+.title{
+    color: #646361;
+    font-size: 24px;
+}
+
+.container{
+    width: max-content;
+}
+
+.boxContainer{
+    width: fit-content;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxLoginContainer{
+    background-color: #d5e3d9;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.boxLoginContainer a{
+    color: #646361;
+    text-decoration: none;
+}
+
+.inputBox{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+
+.buttonSubmit{
+    background-color: #99A799;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}

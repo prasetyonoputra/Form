@@ -1,0 +1,27 @@
+<form action="/halamanSukses" method="post">
+
+    <p class="titleSoal">Nama</p>
+    <input placeholder="Nama" class="inputBox" autocomplete="off" name="nama" value="<%= name %>">
+
+    <p class="titleSoal">Pertanyaan 1</p>
+    <p class="soal">Apa yang kamu sudah mengetahui cara compile program java?</p>
+    <textarea class="inputBox" type="text" placeholder="Jawaban" class="inputBox" autoomplete="off" name="soal1" required></textarea><br>
+
+    <p class="titleSoal">Pertanyaan 2</p>
+    <p class="soal">Sudah pernah buat program input & output memakai java?</p>
+    <textarea class="inputBox" type="text" placeholder="Jawaban" class="inputBox" autoomplete="off" name="soal2" required></textarea><br>
+
+    <p class="titleSoal">Pertanyaan 3</p>
+    <p class="soal">Apakah kamu sudah mengetahui tentang algoritma seleksi kondisi & perulangan? kalau sudah, coba jelaskan sedikit!</p>
+    <textarea class="inputBox" type="text" placeholder="Jawaban" class="inputBox" autoomplete="off" name="soal3" required></textarea><br>
+
+    <p class="titleSoal">Pertanyaan 4</p>
+    <p class="soal">Apakah kamu sudah mengetahui tentang algoritma seleksi kondisi & perulangan? kalau sudah, coba jelaskan sedikit!</p>
+    <textarea class="inputBox" type="text" placeholder="Jawaban" class="inputBox" autoomplete="off" name="soal4" required></textarea><br>
+
+    <p class="titleSoal">Pertanyaan 5</p>
+    <p class="soal">Sebutkan struktur data yang sudah kau pahami dan coba jelaskan sedikit!</p>
+    <textarea class="inputBox" type="text" placeholder="Jawaban" class="inputBox" autoomplete="off" name="soal5" required></textarea><br>
+
+    <button type="submit" class="buttonSubmit" name="submit">Submit</button>
+</form>
